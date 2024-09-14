@@ -122,6 +122,7 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
           ),
           Row(
             children: [
+              _buildButton('%'), // New button for modulo operation
               Expanded(
                 child: Container(
                   padding: const EdgeInsets.all(16),
